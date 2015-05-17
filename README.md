@@ -25,12 +25,12 @@ following public methods.
 #### board module
  * `Cell`: Record with two fields: `state` (`:clear`, `:hit` or `:missed`)
    and `content` (`:ship` or `:empty`)
- * `place-ship x y length horizontal?`: Places a ship with given length and
-   orientation at coordinates x y.
+ * `place-ship board x y length horizontal?`: Places a ship with given length and
+   orientation at coordinates x y. Returns updated board.
  * `create-board`: Returns an empty board.
  * `create-random-board`: Returns a board with randomly placed ships.
- * `get-cell x y`: Returns cell at coordinates x y.
- * `set-cell x y`: Sets cell at coordinates x y
+ * `get-cell board x y`: Returns cell at coordinates x y.
+ * `set-cell board x y`: Sets cell at coordinates x y. Returns updated board.
  * (helper function) `display-board-content board`: Prints content of the given board.
  * (helper function) `display-board-state board`: Prints the state of the given board.
 

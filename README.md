@@ -13,8 +13,8 @@ and enemy's attacks, i.e., the history of Player A's attacks is kept in Player
 B's board (`:state` field of the `Cell` record). Displaying two boards for user
 can be done in a straightforward manner by the application using the API.
 
-We're using numeric indexes for the boards. It's easier and the code it
-cleaner. The letter-to-number mapping should be implemented by the Battleship
+We're using numeric indexes for the boards. It's easier and it makes the code
+a bit cleaner. The letter-to-number mapping should be implemented by the Battleship
 game application using the API.
 
 ### Modules

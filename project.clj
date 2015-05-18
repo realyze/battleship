@@ -6,6 +6,6 @@
   :dependencies [
                  [org.clojure/clojure "1.6.0"]
                  [midje "1.6.3"]]
-  :main ^:skip-aot battleship.core
+  :main ^:skip-aot battleship.game
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

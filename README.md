@@ -19,7 +19,7 @@ game application using the API.
 
 ### Modules
 
-You can require `battleship.core` and `battleship.game` in your app and use the
+You can require `battleship.board` and `battleship.game` in your app and use the
 following public methods.
 
 #### board module
